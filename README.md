@@ -6,7 +6,7 @@ This is based on the following guide (https://developer.okta.com/blog/2021/05/05
 
 I've gone ahead and updated the code using AI and have set it up for my Okta org. The client ids and secrets are all live and should work with my developer org dev-30432529.okta.com.
 
-Notable, the guide was missing a section where the access policies for the org are created. Please follow this guide to create it: https://developer.okta.com/docs/guides/customize-authz-server/main/#create-access-policies. 
+Notably, the guide was missing a section where the access policies for the org are created. Please follow this guide to create it: https://developer.okta.com/docs/guides/customize-authz-server/main/#create-access-policies. 
 In order to run the program, simply run
 ```
 cd secure-server/
