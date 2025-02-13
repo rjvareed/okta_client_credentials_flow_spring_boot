@@ -56,7 +56,7 @@ The source code files of interest for this project are the following:
 ```
 client-webclient/src/main/java/com/example/client/DemoApplication.java
 client-webclient/src/main/java/com/example/client/OAuthClientConfiguration.java
-/secure-server/src/main/java/com/example/secure_server/DemoApplication.java
+secure-server/src/main/java/com/example/secure_server/DemoApplication.java
 ```
 
 let me know if you have any questions
