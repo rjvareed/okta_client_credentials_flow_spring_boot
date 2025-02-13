@@ -50,7 +50,13 @@ If you are having trouble, you can test the program manually with the following 
 
 `curl -X POST "https://{your okta org}.okta.com/oauth2/default/v1/token" -H "Content-Type: application/x-www-form-urlencoded" -u "{client-id}:{client-secret}" --data "grant_type=client_credentials&scope=mod_custom"`
 
-`curl -X GET "http://localhost:8081/" -H "Accept: text/plain, application/json, application/*+json, */*" -H "Authorization: Bearer {access_token}"`
+`curl -X GET "http://localhost:8080/" -H "Accept: text/plain, application/json, application/*+json, */*" -H "Authorization: Bearer {access_token}"`
 
+The source code files of interest for this project are the following:
+```
+client-webclient/src/main/java/com/example/client/DemoApplication.java
+client-webclient/src/main/java/com/example/client/OAuthClientConfiguration.java
+/secure-server/src/main/java/com/example/secure_server/DemoApplication.java
+```
 
 let me know if you have any questions
